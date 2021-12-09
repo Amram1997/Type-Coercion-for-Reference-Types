@@ -79,3 +79,20 @@ console.log(-([2,3]))
 // NaN
 console.log(-(function(){}))
 // NaN
+// instanceof operator
+
+console.log(null instanceof Object)
+console.log(true instanceof Boolean)
+console.log(false instanceof Boolean)
+console.log(1 instanceof Number)
+console.log(NaN instanceof Number)
+console.log('hello' instanceof String)
+// false
+console.log((function () { }) instanceof Function)
+console.log((function () { }) instanceof Object)
+// console.log(a instanceof Object) // try the same also for b, c, d, e and f
+console.log(new Number(1) instanceof Number)
+console.log(new Number(NaN) instanceof Object)
+console.log(/hello/img instanceof RegExp)
+console.log(/hello/img instanceof Function)
+console.log(/hello/img instanceof Object)

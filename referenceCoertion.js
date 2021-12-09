@@ -96,3 +96,9 @@ console.log(new Number(NaN) instanceof Object)
 console.log(/hello/img instanceof RegExp)
 console.log(/hello/img instanceof Function)
 console.log(/hello/img instanceof Object)
+// delete operator
+console.log(delete 1)
+console.log(delete 1.2)
+console.log(delete 1.2.toString)
+ var x = 4;
+ console.log(delete x)
